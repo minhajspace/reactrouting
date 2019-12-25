@@ -12,11 +12,12 @@ const App = () => {
     <div>
       <BrowserRouter>
         <div>
-          <Route path="/" />
-          <Pageone />
-          <Pagetwo />
-          <Pagethree />
-          <Pagefour />
+          <Route path="/" exect component={Pageone} />
+          <Route path="/Pagetwo" exect component={Pagetwo} />
+          <Route path="/Pagethree" exect component={Pagethree} />
+          <Route path="/Pagefour" exect component={Pagefour} />
+
+
         </div>
       </BrowserRouter>
     </div>
